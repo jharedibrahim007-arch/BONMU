@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BONMU | Seguridad, Limpieza y Construcción</title>
+
+    <meta name="description" content="BONMU: productos y soluciones de seguridad industrial, limpieza y construcción. Calidad y atención para tu empresa.">
+
+    <link rel="icon" href="img/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         ENCABEZADO Y MENÚ
+    ========================================== -->
+
+    <header>
+<div class="logo">
+    <img src="img/logo.png" alt="Logo BONMU">
+</div>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#productos">PRODUCTOS</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#contacto">CONTACTO</li>
+                <li><button class="cart-nav" id="cart-open" type="button">🛒 CARRITO <b id="cart-count">0</b></button></li>
+            </ul>
+        </nav>
+
+        <!-- Botón para celular -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+            ☰
+        </button>
+    </header>
+
+
+    <!-- =========================================
+         INICIO
+    ========================================== -->
+
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-content">
+
+                <p class="hero-subtitle">
+                    SOLUCIONES PARA TU EMPRESA
+                </p>
+
+                <h1>
+                    Seguridad, limpieza y construcción
+                </h1>
+
+                <p>
+                    Productos y soluciones de calidad para
+                    proteger, mantener y mejorar tu trabajo.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#productos" class="btn btn-primary">
+                        Ver productos
+                    </a>
+
+                    <a href="#contacto" class="btn btn-secondary">
+                        Contáctanos
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =========================================
+             DESTACADOS / CARRUSEL AUTOMÁTICO
+             Fuera del logo y del encabezado
+        ========================================== -->
+
+        <section class="showcase-section" aria-label="Productos destacados">
+            <div class="showcase-heading">
+                <span>DESTACADOS BONMU</span>
+                <h2>Conoce nuestros productos</h2> 
+            </div>
+
+            <div class="showcase-viewport">
+                <div class="showcase-track" id="showcase-track">
+                    <article class="showcase-card">
+                        <img src="img/galeria/zapato.jpeg" alt="Productos BONMU">
+                        <div class="showcase-overlay">
+                            <span>ZAPATOS</span><h3>Proteje cada paso que das</h3>
+                            <a href="#productos">Ver productos</a>
+                        </div>
+                    </article>
+                    <article class="showcase-card">
+                        <img src="img/galeria/guantes.jpeg" alt="Seguridad industrial BONMU">
+                        <div class="showcase-overlay">
+                            <span>GUANTES</span><h3>Protección para tus manos</h3>
+                            <a href="#productos">Ver catálogo</a>
+                        </div>
+                    </article>
+                    <article class="showcase-card">
+                        <img src="img/galeria/seguridad.jpeg" alt="Productos de limpieza BONMU">
+                        <div class="showcase-overlay">
+                            <span>ARNES DE SEGURIDAD Y LÍNEA DE VIDA</span><h3>Protege tu vida</h3>
+                            <a href="#productos">Ver catálogo</a>
+                        </div>
+                    </article>
+                    <article class="showcase-card">
+                        <img src="img/galeria/insecticida.jpeg" alt="Productos de construcción BONMU">
+                        <div class="showcase-overlay">
+                            <span>INSECTICIDAS</span><h3>A los insectos ponle fín</h3>
+                            <a href="#productos">Ver catálogo</a>
+                        </div>
+                    </article>
+                    <article class="showcase-card">
+                        <img src="img/galeria/escoba.jpeg" alt="Equipos BONMU">
+                        <div class="showcase-overlay">
+                            <span>ESCOBAS</span><h3>Para una gran limpieza en casa</h3>
+                            <a href="#productos">Explorar</a>
+                        </div>
+                    </article>
+                    <article class="showcase-card">
+                        <img src="img/galeria/poett.jpeg" alt="Catálogo BONMU">
+                        <div class="showcase-overlay">
+                            <span>LIPIA TODO</span><h3>Encuentra lo que necesitas</h3>
+                            <a href="#productos">Comprar</a>
+                        </div>
+                    </article>
+                </div>
+                <button class="showcase-arrow showcase-prev" id="showcase-prev" aria-label="Anterior">‹</button>
+                <button class="showcase-arrow showcase-next" id="showcase-next" aria-label="Siguiente">›</button>
+            </div>
+            <div class="showcase-dots" id="showcase-dots" aria-label="Navegación del carrusel"></div>
+        </section>
+
+
+        <!-- =========================================
+             NOSOTROS
+        ========================================== -->
+
+        <section id="nosotros" class="section">
+
+            <div class="section-title">
+
+                <span>CONÓCENOS</span>
+
+                <h2>
+                    Sobre BONMU
+                </h2>
+
+                <p>
+                    Conoce nuestra empresa y las soluciones
+                    que tenemos para nuestros clientes.
+                </p>
+
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <h3>
+                        Explora nuestros productos EPP certificados y nuestras alianzas estratégicas
+                    </h3>
+
+                    <p>
+                     En BONMU CORPORACIÓN trabajamos directamente con marcas líderes en el Perú,
+                      como Segpro y Delta Plus, reconocidas por su calidad y certificación internacional
+                       en equipos de protección personal.
+                    </p>
+
+                    <p>
+                        Nuestro objetivo es ayudarte a encontrar
+                        los productos adecuados para cada trabajo.
+                    </p>
+<div class="about-card">
+    <img src="img/galeria/deltaplus.png" class="deltaplus-logo">
+    <img src="img/galeria/Segpro.jpg">
+    <img src="img/galeria/trabajador.png" style="width: 250px; height: auto;">
+</div>
+                </div>
+
+                <div class="about-card">
+
+                    <h3>¿Por qué BONMU?</h3>
+
+                    <p>
+                        Calidad, variedad y atención para nuestros
+                        clientes.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             PRODUCTOS
+        ========================================== -->
+
+        <section id="productos" class="section products-section">
+
+            <div class="section-title">
+
+                <span>NUESTRO CATÁLOGO</span>
+
+                <h2>
+                    Productos
+                </h2>
+
+                <p>
+                    Encuentra productos para seguridad,
+                    limpieza y construcción.
+                </p>
+
+            </div>
+
+
+            <!-- Filtros -->
+
+            <div class="product-filters">
+
+                <button class="filter-btn active" data-category="todos">
+                    Todos
+                </button>
+
+                <button class="filter-btn" data-category="seguridad">
+                    Seguridad
+                </button>
+
+                <button class="filter-btn" data-category="limpieza">
+                    Limpieza
+                </button>
+
+                <button class="filter-btn" data-category="construccion">
+                    Construcción
+                </button>
+
+            </div>
+
+
+            <!-- Productos -->
+
+<div class="products-grid" id="products-grid">
+
+    <article class="product-card" data-category="seguridad" data-product-id="respirador">
+        <div class="product-image"><img src="img/galeria/foto2.jpeg" alt="Respirador de doble vía"></div>
+        <div class="product-info">
+            <span class="product-category">Seguridad</span>
+            <h3>Respirador de doble vía</h3>
+            <p>Equipo destinado a brindar protección respiratoria durante diferentes actividades.</p>
+            <div class="product-actions">
+                <button class="product-btn add-to-cart" data-id="respirador" data-name="Respirador de doble vía">🛒 Añadir al carrito</button><button class="product-btn product-detail-link" data-detail-id="respirador" type="button">Ver detalles</button>
+                <a href="https://wa.me/+51944234226?text=Hola%2C%20quisiera%20información%20sobre%20el%20Respirador%20de%20doble%20vía." class="product-link" target="_blank" rel="noopener">Consultar</a>
+            </div>
+        </div>
+    </article>
+
+    <article class="product-card" data-category="seguridad" data-product-id="arnes">
+        <div class="product-image"><img src="img/galeria/foto5.jpeg" alt="Arnés y línea de vida"></div>
+        <div class="product-info">
+            <span class="product-category">Seguridad</span>
+            <h3>Arnés y línea de vida</h3>
+            <p>Sistema de protección para trabajos donde se requiere seguridad contra caídas.</p>
+            <div class="product-actions">
+                <button class="product-btn add-to-cart" data-id="arnes" data-name="Arnés y línea de vida">🛒 Añadir al carrito</button><button class="product-btn product-detail-link" data-detail-id="arnes" type="button">Ver detalles</button>
+                <a href="https://wa.me/+51944234226?text=Hola%2C%20quisiera%20información%20sobre%20el%20Arnés%20y%20línea%20de%20vida." class="product-link" target="_blank" rel="noopener">Consultar</a>
+            </div>
+        </div>
+    </article>
+
+    <article class="product-card" data-category="limpieza" data-product-id="limpieza">
+        <div class="product-image"><img src="img/galeria/foto3.jpeg" alt="Productos de limpieza"></div>
+        <div class="product-info">
+            <span class="product-category">Limpieza</span>
+            <h3>Productos de limpieza</h3>
+            <p>Soluciones para limpieza y mantenimiento de diferentes espacios.</p>
+            <div class="product-actions">
+                <button class="product-btn add-to-cart" data-id="limpieza" data-name="Productos de limpieza">🛒 Añadir al carrito</button><button class="product-btn product-detail-link" data-detail-id="detergente" type="button">Ver detalles</button>
+                <a href="#contacto" class="product-link">Consultar</a>
+            </div>
+        </div>
+    </article>
+
+    <article class="product-card" data-category="construccion" data-product-id="construccion">
+        <div class="product-image"><img src="img/productos/construccion.jpg" alt="Productos para construcción"></div>
+        <div class="product-info">
+            <span class="product-category">Construcción</span>
+            <h3>Productos para construcción</h3>
+            <p>Productos seleccionados para diferentes trabajos y proyectos de construcción.</p>
+            <div class="product-actions">
+                <button class="product-btn add-to-cart" data-id="construccion" data-name="Productos para construcción">🛒 Añadir al carrito</button><button class="product-btn product-detail-link" data-detail-id="cinta" type="button">Ver detalles</button>
+                <a href="#contacto" class="product-link">Consultar</a>
+            </div>
+        </div>
+    </article>
+
+</div>
+
+        </section>
+
+
+        <!-- =========================================
+             SERVICIOS
+        ========================================== -->
+
+        <section id="servicios" class="section">
+
+            <div class="section-title">
+
+                <span>LO QUE OFRECEMOS</span>
+
+                <h2>
+                    Nuestros servicios
+                </h2>
+
+            </div>
+
+
+            <div class="services-grid">
+
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        🛡️
+                    </div>
+
+                    <h3>
+                        Seguridad industrial
+                    </h3>
+
+                    <p>
+                        Equipos y productos destinados a la
+                        protección y seguridad en el trabajo.
+                    </p>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        🧹
+                    </div>
+
+                    <h3>
+                        Productos de limpieza
+                    </h3>
+
+                    <p>
+                        Soluciones para limpieza y mantenimiento
+                        de diferentes espacios.
+                    </p>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        🏗️
+                    </div>
+
+                    <h3>
+                        Construcción
+                    </h3>
+
+                    <p>
+                        Productos y herramientas para diferentes
+                        necesidades de construcción.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             GALERÍA
+        ========================================== -->
+
+        <section id="galeria" class="section gallery-section">
+
+            <div class="section-title">
+                <span>CATÁLOGO INTERACTIVO</span>
+                <h2>Galería de productos</h2>
+                <p>Busca un producto o presiona una imagen para conocer sus detalles, opciones y características.</p>
+            </div>
+
+            <div class="catalog-search">
+                <div class="catalog-search-box">
+                    <span class="search-icon">⌕</span>
+                    <input
+                        id="gallery-search"
+                        type="search"
+                        placeholder="Buscar producto... Ej.: respirador, chaleco, detergente"
+                        autocomplete="off"
+                    >
+                    <button id="gallery-search-clear" type="button" aria-label="Limpiar búsqueda">×</button>
+                </div>
+                <div class="search-meta">
+                    <span id="gallery-result-count">8 productos</span>
+                    <span>•</span>
+                    <span>También puedes buscar por categoría</span>
+                </div>
+            </div>
+
+            <div class="gallery-grid" id="gallery-grid">
+
+                <article class="gallery-item product-detail-trigger"
+                    data-product-id="chaleco"
+                    data-category="seguridad"
+                    data-search="chaleco reflectivo seguridad epp ropa alta visibilidad"
+                    tabindex="0">
+                    <img src="img/galeria/foto1.jpeg" alt="Chaleco reflectivo BONMU" loading="lazy">
+                    <div class="gallery-card-overlay">
+                        <span>Seguridad / EPP</span>
+                        <h3>Chaleco reflectivo</h3>
+                        <p>Ver descripción y opciones →</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item product-detail-trigger"
+                    data-product-id="detergente"
+                    data-category="limpieza"
+                    data-search="detergente downy limpieza lavanderia ropa"
+                    tabindex="0">
+                    <img src="img/galeria/foto2.jpeg" alt="Detergente BONMU" loading="lazy">
+                    <div class="gallery-card-overlay">
+                        <span>Limpieza</span>
+                        <h3>Detergente</h3>
+                        <p>Ver descripción y opciones →</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item product-detail-trigger"
+                    data-product-id="suavizante"
+                    data-category="limpieza"
+                    data-search="suavizante bolivar limpieza ropa suavizante"
+                    tabindex="0">
+                    <img src="img/galeria/foto3.jpeg" alt="Suavizante BONMU" loading="lazy">
+                    <div class="gallery-card-overlay">
+                        <span>Limpieza</span>
+                        <h3>Suavizantes</h3>
+                        <p>Ver descripción y opciones →</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item product-detail-trigger"
+                    data-product-id="papel"
+                    data-category="limpieza"
+                    data-search="toalla papel higienico papel suave limpieza papel"
+                    tabindex="0">
+                    <img src="img/galeria/foto4.jpeg" alt="Toalla de papel Suave" loading="lazy">
+                    <div class="gallery-card-overlay">
+                        <span>Limpieza</span>
+                        <h3>Toalla de papel</h3>
+                        <p>Ver descripción y opciones →</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item product-detail-trigger"
+                    data-product-id="respirador"
+                    data-category="seguridad"
+                    data-search="respirador doble via mascarilla epp seguridad proteccion respiratoria"
+                    tabindex="0">
+                    <img src="img/galeria/foto5.jpeg" alt="Respirador de doble vía BONMU" loading="lazy">
+                    <div class="gallery-card-overlay">
+                        <span>Seguridad / EPP</span>
+                        <h3>Respirador de doble vía</h3>
+                        <p>Ver descripción y opciones →</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item product-detail-trigger"
+                    data-product-id="cinta"
+                    data-category="seguridad"
+                    data-search="cinta peligro seguridad señalizacion obra construccion"
+                    tabindex="0">
+                    <img src="img/galeria/foto6.jpeg" alt="Cinta de peligro BONMU" loading="lazy">
+                    <div class="gallery-card-overlay">
+                        <span>Seguridad / Obra</span>
+                        <h3>Cinta de peligro</h3>
+                        <p>Ver descripción y opciones →</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item product-detail-trigger"
+                    data-product-id="arnes"
+                    data-category="seguridad"
+                    data-search="arnes linea vida epp trabajo altura seguridad caidas"
+                    tabindex="0">
+                    <img src="img/galeria/foto7.jpeg" alt="Arnés y línea de vida BONMU" loading="lazy">
+                    <div class="gallery-card-overlay">
+                        <span>Seguridad / EPP</span>
+                        <h3>Arnés y línea de vida</h3>
+                        <p>Ver descripción y opciones →</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item product-detail-trigger"
+                    data-product-id="casco"
+                    data-category="seguridad"
+                    data-search="casco jockey epp seguridad proteccion cabeza obra construccion"
+                    tabindex="0">
+                    <img src="img/galeria/foto8.jpeg" alt="Casco tipo jockey BONMU" loading="lazy">
+                    <div class="gallery-card-overlay">
+                        <span>Seguridad / EPP</span>
+                        <h3>Casco tipo jockey</h3>
+                        <p>Ver descripción y opciones →</p>
+                    </div>
+                </article>
+
+            </div>
+
+            <div id="gallery-no-results" class="gallery-no-results" hidden>
+                <div>🔎</div>
+                <h3>No encontramos ese producto</h3>
+                <p>Prueba con otro nombre, categoría o palabra clave.</p>
+                <button class="btn btn-primary" id="gallery-show-all" type="button">Mostrar todos</button>
+            </div>
+
+            <!-- Apartado de detalles: se abre al presionar cualquier producto -->
+            <div class="product-detail-modal" id="product-detail-modal" aria-hidden="true">
+                <div class="product-detail-backdrop" data-detail-close></div>
+
+                <div class="product-detail-panel" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+                    <button class="product-detail-close" id="product-detail-close" type="button" aria-label="Cerrar">×</button>
+
+                    <div class="product-detail-image">
+                        <img id="detail-image" src="" alt="">
+                    </div>
+
+                    <div class="product-detail-content">
+                        <span class="detail-category" id="detail-category"></span>
+                        <h2 id="detail-title"></h2>
+                        <p class="detail-description" id="detail-description"></p>
+
+                        <div class="detail-options" id="detail-options"></div>
+
+                        <div class="detail-actions">
+                            <button class="btn btn-primary" id="detail-add-cart" type="button">🛒 Añadir al carrito</button>
+                            <a class="btn btn-secondary detail-whatsapp" id="detail-whatsapp" href="#" target="_blank" rel="noopener">
+                                💬 Consultar
+                            </a>
+                        </div>
+
+                        <p class="detail-note">
+                            Las tallas, colores, presentaciones y disponibilidad pueden variar según el modelo.
+                            Confirma los detalles con BONMU antes de realizar el pago.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             CONTACTO
+        ========================================== -->
+
+        <section id="contacto" class="section contact-section">
+
+            <div class="section-title">
+
+                <span>ESTAMOS PARA AYUDARTE</span>
+
+                <h2>
+                    Contáctanos
+                </h2>
+
+                <p>
+                    ¿Necesitas información sobre nuestros
+                    productos? Escríbenos.
+                </p>
+
+            </div>
+
+
+            <div class="contact-content">
+
+                <div class="contact-info">
+
+                    <h3>
+                        Ponte en contacto
+                    </h3>
+
+                    <p>
+                        Estamos disponibles para atender
+                        tus consultas.
+                    </p>
+
+                    <div class="contact-item">
+                        📱 WhatsApp
+                    </div>
+
+                    <div class="contact-item">
+                        📍 Ubicación
+                    </div>
+
+                    <div class="contact-item">
+                        📧 Correo electrónico
+                    </div>
+
+                </div>
+
+
+                <form class="contact-form">
+
+                    <input
+                        type="text"
+                        placeholder="Nombre"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        placeholder="Correo electrónico"
+                        required
+                    >
+
+                    <textarea
+                        placeholder="Escribe tu mensaje..."
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="btn btn-primary">
+                        Enviar mensaje
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+         CARRITO DE PEDIDOS
+    ========================================== -->
+    <div class="cart-overlay" id="cart-overlay" aria-hidden="true">
+        <aside class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+            <div class="cart-header">
+                <div><span>MI PEDIDO</span><h2 id="cart-title">Tu carrito</h2></div>
+                <button id="cart-close" class="cart-close" type="button" aria-label="Cerrar carrito">×</button>
+            </div>
+            <div class="cart-body">
+                <div id="cart-empty" class="cart-empty">
+                    <div>🛒</div><h3>Tu carrito está vacío</h3>
+                    <p>Añade productos y quedarán guardados en este navegador.</p>
+                    <button class="btn btn-primary" id="cart-shop" type="button">Ver productos</button>
+                </div>
+                <div id="cart-items"></div>
+            </div>
+            <div class="cart-footer" id="cart-footer">
+                <div class="cart-summary"><span>Productos</span><strong id="cart-total-items">0</strong></div>
+                <p class="cart-note">Los precios se coordinan con BONMU antes de confirmar el pago.</p>
+                <button class="btn btn-primary cart-checkout" id="cart-checkout" type="button">📲 Reservar pedido por WhatsApp</button>
+                <button class="cart-clear" id="cart-clear" type="button">Vaciar carrito</button>
+            </div>
+        </aside>
+    </div>
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>BONMU</h3>
+
+                <p>
+                    Seguridad · Limpieza · Construcción
+                </p>
+            </div>
+
+            <div>
+                <h4>Enlaces</h4>
+
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#productos">Productos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 BONMU. Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Botón WhatsApp -->
+
+    <a
+        href="https://wa.me/+51944234226?text=Hola%2C%20quisiera%20información%20sobre%20los%20productos%20BONMU."
+        class="whatsapp-button"
+        id="whatsapp-button"
+        target="_blank"
+        aria-label="Escribir por WhatsApp"
+    >
+        💬
+    </a>
+
+
+    <!-- Botón volver arriba -->
+
+    <button id="back-to-top" class="back-to-top">
+        ↑
+    </button>
+
+
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
